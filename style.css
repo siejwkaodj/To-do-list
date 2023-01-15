@@ -12,7 +12,6 @@ html, body{
 }
 
 .title{
-    
     margin: 8px 0px 8px 20px;
     
 }
@@ -37,8 +36,14 @@ html, body{
     font-size: 18px;
 }
 
+.info{
+    font-size: 20px;
+    font-style: bold;
+    margin: 8px 0px 12px 14px;
+}
+
 .line{
-    margin: 100px 0px 100px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
 .top{
