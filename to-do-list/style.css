@@ -1,0 +1,42 @@
+.body{
+    text-align: center;
+}
+.screen{
+    width: 50%;
+    height: 100%;
+    margin:auto;
+}
+
+.title{
+    
+    margin: 8px 0px 8px 20px;
+    
+}
+
+.add-button{
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.login-button{
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.task-list{
+    font-size: 18px;
+}
+
+.line{
+    margin: 100px 0px 100px 0px;
+}
+
+.top{
+    margin: 0px 0px 10px 0px;
+}
