@@ -1,10 +1,14 @@
-.body{
-    text-align: center;
+html, body{
+    margin: 0px 0px 0px 0px;
+    
+    height: 100%;
 }
 .screen{
     width: 50%;
+    max-width: 600px;
     height: 100%;
-    margin:auto;
+    margin: 0px auto;
+    border: 2px solid black;
 }
 
 .title{
