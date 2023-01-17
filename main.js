@@ -1,4 +1,3 @@
-const addbtn = document.getElementsByClassName('add-button');
-addbtn.addEventListener('click', ()=>{
-    alert('hello?' + addbtn);
-});
+function alertWindow(){
+    alert('button clicked');
+}
