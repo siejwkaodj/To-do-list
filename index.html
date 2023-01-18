@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="main.js"></script>
     <div class="screen">
         <div class="top">
             <div style="float:left">
@@ -17,8 +16,8 @@
             </div>
             <!-- 버튼 -->
             <div style="float:right">
-                <input type="button" onclick="alertWindow()" id="add-button" class="add-button" value="+ Add" />
-                <input type="button" class="login-button" value="login">
+                <input type="button" id="add-button" class="add-button" value="+ Add" />
+                <input type="button" id='login-button' class="login-button" value="login">
             </div>
             <div style="clear:both"></div>
 
@@ -27,21 +26,16 @@
             <!-- 할 일 목록 -->
             <div class="doing">
                 <form class="task-list">
-                    <div class="task">
-                        <input type="checkbox" name="task">
-                        <input type="text" value="val" disabled>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="task">할 일 2
-                    </div>
-
+                    <input type="text" onclick="test()" value="hello">
                 </form>
 
             </div>
-        </div>
-        <!-- 끝낸 일 목록 -->
-        <div style="margin: 100px 0px 8px 20px;">
-            <h1>Finished task</h1>
+
+            <div style="margin: 100px 0px 8px 20px;">
+                <h1>Finished task</h1>
+            </div>
+            <!-- 끝낸 일 목록 -->
+
         </div>
         <hr width="150px" class="line" color="black" align="left" noshade />
         
@@ -51,8 +45,9 @@
             <hr width="150px" color="black" style="margin: 20px auto 0px auto" noshade />
             <div>last update: 23-01-15 20:58</div>
         </div>
+        </div>
     </div>
-    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
