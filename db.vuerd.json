@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -299,
-    "scrollLeft": -553,
+    "scrollTop": -280,
+    "scrollLeft": -582,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -49,7 +49,7 @@
           {
             "name": "idx",
             "comment": "",
-            "dataType": "INTEGER",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": true,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 708,
           "top": 423,
-          "zIndex": 54,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60
         },
@@ -157,7 +157,7 @@
           {
             "name": "idx",
             "comment": "",
-            "dataType": "INTEGER",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": true,
@@ -180,7 +180,7 @@
           {
             "name": "userIdx",
             "comment": "",
-            "dataType": "INTEGER",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -251,7 +251,7 @@
           "active": false,
           "left": 406.0393,
           "top": 650.8963,
-          "zIndex": 56,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 60
         },
@@ -265,7 +265,7 @@
           {
             "name": "idx",
             "comment": "",
-            "dataType": "INTEGER",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": true,
@@ -288,7 +288,7 @@
           {
             "name": "idx",
             "comment": "",
-            "dataType": "INTEGER",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -356,10 +356,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 929.25,
           "top": 646.75,
-          "zIndex": 58,
+          "zIndex": 13,
           "widthName": 60,
           "widthComment": 60
         },

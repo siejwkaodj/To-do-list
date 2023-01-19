@@ -6,7 +6,7 @@ html, body{
     width: 50%;
     max-width: 600px;
     min-width: 400px;
-    height: 100%;
+    min-height: 100%;
     margin: 0px auto;
     border: 2px solid black;
 }
@@ -35,10 +35,6 @@ html, body{
     border-radius: 20px;
 }
 
-.task-list{
-    font-size: 18px;
-}
-
 .info{
     font-size: 20px;
     font-style: bold;
@@ -51,4 +47,67 @@ html, body{
 
 .top{
     margin: 0px 0px 10px 0px;
+}
+/** 할 일 목록 */
+.task{
+    height: 40px
+}
+
+.checkbox{
+    width: 26px;
+    height:26px;
+    margin: 7px 3px 7px 3px;
+
+    /* position:absolute;
+    top:50%;
+    transform: translate(-50%, -50%); */
+}
+.text{
+    width: 200px;
+    height:35px;
+    margin: 0px auto 0px auto;
+
+    font-family: arial;
+    font-size: 20px;
+    border: 3px black;
+    border-radius: 5px;
+
+    /* position:absolute;
+    top:50%;
+    transform: translate(-50%, -50%); */
+}
+.modify{
+    width: 100px;
+    height:38px;
+    margin: 0px 5px 0px 5px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    /* position:absolute;
+    top:50%;
+    transform: translate(-50%, -50%); */
+}
+.remove{
+    width: auto;
+    height:26px;
+    margin: 7px 30px 7px 5px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    /* position:absolute;
+    top:50%;
+    transform: translate(-50%, -50%); */
+}
+.taskbtn{
+    float:right;
+}
+
+
+/** 하단부 */
+.last-update{
+    margin: auto auto 50px auto;
 }

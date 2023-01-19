@@ -13,17 +13,26 @@ let taskNum = 0;
  */
 addBtn.addEventListener('click', ()=>{
     const tl = document.getElementsByClassName('task-list')[0];
-    console.log(tl);
+    const screen = document.getElementsByClassName('screen')[0];
+    const top = document.getElementsByClassName('top')[0];
+    const bottom = document.getElementsByClassName('bottom')[0];
+
+    // console.log(tl);
+    taskNum++;
     tl.innerHTML = tl.innerHTML + `
-    <div>
-        <input type="checkbox" class="task-${taskNum}" name="task" onclick="completeTask(this.parentNode)">
-        <input type="text" class="textbox" value="할 일 ${taskNum}" onchange="" disabled>
-        <input type="button" value="modify" class="modify" onclick="modify(this.parentNode)">
-        <input type="button" value="remove" class="remove" onclick="removeTask(this.parentNode)">
+    <div class="task">
+        <input type="checkbox" class="checkbox" name="task" onclick="completeTask(this.parentNode)">
+        <input type="text" class="text" value="할 일 ${taskNum}" onchange="" disabled>
+        <div class="taskbtn">
+            <input type="button" value="modify" class="modify" onclick="modify(this.parentNode.parentNode)">
+            <input type="button" value="remove" class="remove" onclick="removeTask(this.parentNode.parentNode)">
+        </div>
+        
 
     </div>
     `;
-    taskNum++;
+
+    // screen.height = top.height + bottom.height;
 });
 /**
  * 로그인 버튼
