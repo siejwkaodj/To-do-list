@@ -1,16 +1,15 @@
-# to_do_list
+# to-do-list 만들기
 
-A new Flutter project.
+## 기능 요구사항
 
-## Getting Started
+### 서버
 
-This project is a starting point for a Flutter application.
+- 할 일 조회/추가/삭제/수정 가능 (CRUD)
+- 서버에 변경사항 업데이트(http프로토콜로)
+- 로그인해서 다른 곳에서도 볼 수 있도록 함
 
-A few resources to get you started if this is your first Flutter project:
+### 프론트
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 모바일, pc 크로스 플랫폼 가능
+- 반응형으로
+- 마우스 올리는 등 사용자 행동에 피드백
