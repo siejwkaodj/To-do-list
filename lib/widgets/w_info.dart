@@ -59,11 +59,12 @@ class _InfoWidgetState extends State<InfoWidget> {
                     '${dt.year}년 ${dt.month}월 ${dt.day}일 ${weekDayList[dt.weekday - 1]}요일',
                     style: TextStyles.title2);
               }),
-              TimerBuilder.periodic(Duration(seconds: 1), builder: (context) {
+              TimerBuilder.periodic(Duration(minutes: 1), builder: (context) {
                 DateTime dt = DateTime.now();
                 // 시간 보정
                 dt = dt.add(Duration(hours: 9));
-                return Text(DateFormat('HH:mm:ss').format(dt),
+                // return Text(DateFormat('HH:mm:ss').format(dt),
+                return Text(DateFormat('HH:mm').format(dt),
                     style: TextStyles.title2);
               }),
             ]),

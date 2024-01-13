@@ -74,7 +74,7 @@ class Home extends StatelessWidget {
                     content: '123',
                     date: '2023-12-12',
                     isStarred: true,
-                    isDueDate: false,
+                    isDueDate: true,
                     isFinished: false,
                   ),
                   Task(
@@ -85,8 +85,14 @@ class Home extends StatelessWidget {
                     isDueDate: false,
                     isFinished: false,
                   ),
-
-                  Image.asset('assets/images/dots.png'),
+                  Task(
+                    title: '123',
+                    content: '123',
+                    date: '2023-12-12',
+                    isStarred: false,
+                    isDueDate: true,
+                    isFinished: false,
+                  ),
                 ],
               ),
             ),
